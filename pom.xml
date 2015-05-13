@@ -9,7 +9,10 @@
 	</parent>
 	<groupId>org.jboss.tools</groupId>
 	<artifactId>server.all</artifactId>
-	<version>4.3.0-SNAPSHOT</version>
+	<!-- Here it's 4.3.0.Beta1 coincidentally, not necessary parent pom version.
+	Version would be <componentTargetVersion>.<milestone>-SNAPSHOT
+	 -->
+	<version>4.3.0.Beta1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>jbosstools-server</name>
 	<properties>
